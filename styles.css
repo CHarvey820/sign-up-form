@@ -1,0 +1,91 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+p:last-of-type{
+ margin-top: 3rem;   
+}
+
+.container {
+  max-width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+}
+
+.img-container {
+  max-width: 525px;
+  height: 100%;
+}
+
+.description-container, .account-container{
+    padding-left: 2.5rem;
+}
+
+.description-container{
+    padding-right: 12rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.144) 0px 13px 27px -5px, rgba(153, 153, 153, 0.3) 0px 8px 16px -8px;
+  padding: 1rem 2.5rem;
+}
+
+.information-container{
+    flex: 1;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btnCreateAccount{
+    color: white;
+    font-weight: bold;
+    letter-spacing: .04rem;
+    background-color: #596D48;
+    padding: 1rem 3.5rem;
+    border-radius: .5rem;
+    box-shadow: 1px 6px 10px rgba(116, 116, 116, 0.301);
+}
+
+.loginLink{
+    color: #596D48;
+}
